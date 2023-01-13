@@ -1,4 +1,19 @@
-import logo from './logo.svg';
+import * as math from './js/math.js';
+export const doAdd = (a, b) => math.add(a, b);
+export const doSubstract = (a, b) => math.substract = (a, b);
+export const doMultiply = (a, b) => math.multiply = (a, b );
+export const doDevide = (a, b) => math.divide = (a, b);
+
+function App() {
+  console.log(doAdd(1,2));
+  console.log(doSubstract(1,2));
+  console.log(doMultiply(1,2));
+  console.log(doDevide(1,2));
+
+}
+export default App;
+
+/*import logo from './logo.svg';
 import './App.css';
 
 function App() {
@@ -23,3 +38,4 @@ function App() {
 }
 
 export default App;
+*/
